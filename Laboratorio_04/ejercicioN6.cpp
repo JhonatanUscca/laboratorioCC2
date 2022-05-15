@@ -1,3 +1,6 @@
+#include<iostream>
+
+using namespace std;
 int main(){
     int A[3][3],sum1=0,sum2=0,sum3=0;
     for(int i=0;i<3;i++){
