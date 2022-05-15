@@ -1,5 +1,25 @@
 #include <iostream>
 using namespace std;
+int a_no(int a,int b){
+    return a-b;
+}
+int mes(int a,int b,int c, int d){
+    if(d<=c){
+        return (12-b)+a-1;
+    }
+    else{
+        return (12-b)+a-2;
+    }
+}
+int dia(int a,int b){
+    if(b<=a){
+        return a-b;
+    }
+    else{
+        return a+30-b;
+    }
+}
+
 int main(){
  
     int a1,a2,m1,m2,d1,d2;
