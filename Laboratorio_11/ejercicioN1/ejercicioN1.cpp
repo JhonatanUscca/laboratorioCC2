@@ -1,4 +1,4 @@
-#include "clase11.h"
+#include "ejercicioN1.h"
 int main()
 {
     lista lista1;
