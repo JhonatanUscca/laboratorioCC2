@@ -1,4 +1,4 @@
-#include "clase10.h"
+#include "ejercicioN5.h"
  
 int main()
 {
