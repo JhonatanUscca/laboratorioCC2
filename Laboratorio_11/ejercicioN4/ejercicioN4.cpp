@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "stdlib.h"
  
-#include "clase11.h"
+#include "ejercicioN4.h"
  
 int hanoi::entrar(TPILA& t, int p) {
     if (t.fin == total - 1)
