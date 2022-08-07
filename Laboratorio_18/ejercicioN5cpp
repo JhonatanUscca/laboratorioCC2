@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+#include <string>
+ 
+template <int N>
+ 
+struct Convertir
+{
+ 
+    void id() {
+    if(N>1){
+        Convertir<N/2> b;
+        b.id();  
+       
+    }
+    cout<<N%2;
+         
+    }
+ 
+};
+ 
+ 
+int main()
+{
+   
+    Convertir<4> a;
+    a.id();
+    cout << endl;
+   
+    system("pause");
+}
